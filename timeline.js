@@ -26,6 +26,7 @@ fetch(myURL)
             
             var myLink = document.createElement("a");
             myLink.setAttribute("class", "timeline-link");
+            myLink.setAttribute("target", "_blank");
             var myLinkURL = data[x].links.article;
             myLink.setAttribute("href", myLinkURL);
             myLink.textContent = "Read article";
